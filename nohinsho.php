@@ -45,7 +45,7 @@ if( !empty($_GET['code']) ){
 ?>
 
 <form>
-  <label>伝票番号</label>
+  <label>伝票番号(例：10001)</label>
   <input type="number" name="code">
   <input type="submit" value="検索">
 </form>
